@@ -1,4 +1,4 @@
-import java.utils*;
+import java.util.*;
 
 public class Kinematics {
   public static void main(String[] args) {

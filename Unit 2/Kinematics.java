@@ -19,7 +19,7 @@ public class Kinematics {
   }
   
   public static double calcDisplacement(double v_initial, double time, double acceleration) {
-    double dx = v_initial * time + 0.5 * a * Math.pow(t, 2);
+    double dx = v_initial * time + 0.5 * acceleration * Math.pow(time, 2);
     return dx;
     
   }

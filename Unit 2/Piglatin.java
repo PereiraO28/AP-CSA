@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PigLatin {
+public class pigLatin {
     public static void main(String[] args) {
         Scanner readIn = new Scanner(System.in);
 

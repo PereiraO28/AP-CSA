@@ -6,7 +6,7 @@ public class RPS {
     int numRounds = getRounds();
     int targetScore = numRounds / 2 + 1;
     System.out.println("Playing best of " + numRounds);
-    System.out.println("First one to " + targetScore + "wins!");
+    System.out.println("First one to " + targetScore + " wins!");
   }
   public static int getRounds() {
     Scanner readIn = new Scanner(System.in);

@@ -3,7 +3,7 @@ import java.util.*;
 public class RPS {
   public static void main(String[] args) {
 
-    int numRounds = getRounds()
+    int numRounds = getRounds();
     int targetScore = numRounds / 2 + 1;
     System.out.println("Playing best of " + numRounds);
     System.out.println("First one to " + targetScore + "wins!");
